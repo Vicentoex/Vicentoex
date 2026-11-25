@@ -3,7 +3,9 @@
   <rect x="0.5" y="0.5" width="799" height="439" rx="16" fill="#0c1311" stroke="#26322e" stroke-width="1"/>
 
   <!-- Header -->
-  <circle cx="28" cy="30" r="3.5" fill="#5cbf8f"/>
+  <circle cx="28" cy="30" r="3.5" fill="#5cbf8f">
+    <animate attributeName="opacity" values="0.45;1;0.45" dur="3.4s" repeatCount="indefinite"/>
+  </circle>
   <text x="41" y="34" fill="#a6b9b0" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="600" letter-spacing="0.6">MAPA DE DOMINIOS · INTERSECCIÓN APLICADA</text>
   <text x="776" y="34" text-anchor="end" fill="#8da399" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5">01 — 04</text>
   <line x1="22" y1="52" x2="778" y2="52" stroke="#222e2a" stroke-width="1"/>
@@ -19,7 +21,9 @@
       <circle cx="20" cy="15" r="1.8" fill="#5cbf8f" stroke="none"/>
     </g>
     <text x="22" y="64" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="20.5" font-weight="700">Educación y Aprendizaje</text>
-    <line x1="22" y1="78" x2="60" y2="78" stroke="#5cbf8f" stroke-width="2" stroke-linecap="round"/>
+    <line x1="22" y1="78" x2="60" y2="78" stroke="#5cbf8f" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="4.0s" begin="0s" repeatCount="indefinite"/>
+    </line>
     <text x="22" y="104" fill="#b4c6bd" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14.5">Repetición espaciada, recuerdo activo y diseño</text>
     <text x="22" y="124" fill="#b4c6bd" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14.5">instruccional para consolidar conceptos complejos.</text>
     <text x="22" y="152" fill="#8da399" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5">Anki · Aprendizaje</text>
@@ -40,7 +44,9 @@
       <circle cx="25" cy="11" r="2.3" fill="#7de0ae" stroke="none"/>
     </g>
     <text x="22" y="64" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="20.5" font-weight="700">Neuropsicología</text>
-    <line x1="22" y1="78" x2="60" y2="78" stroke="#5cbf8f" stroke-width="2" stroke-linecap="round"/>
+    <line x1="22" y1="78" x2="60" y2="78" stroke="#5cbf8f" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="4.0s" begin="0s" repeatCount="indefinite"/>
+    </line>
     <text x="22" y="104" fill="#b4c6bd" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14.5">Atención, memoria y carga cognitiva como</text>
     <text x="22" y="124" fill="#b4c6bd" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14.5">criterio empírico al diseñar cada flujo.</text>
     <text x="22" y="152" fill="#8da399" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5">Base · Criterio</text>
@@ -56,7 +62,9 @@
       <path d="M10 8 C15 8, 13 15, 18 15" stroke="#a6b9b0"/>
     </g>
     <text x="22" y="64" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="20.5" font-weight="700">IA aplicada</text>
-    <line x1="22" y1="78" x2="60" y2="78" stroke="#e3a24f" stroke-width="2" stroke-linecap="round"/>
+    <line x1="22" y1="78" x2="60" y2="78" stroke="#e3a24f" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="4.0s" begin="2.0s" repeatCount="indefinite"/>
+    </line>
     <text x="22" y="104" fill="#b4c6bd" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14.5">Prompts estructurados y scripts legibles para</text>
     <text x="22" y="124" fill="#b4c6bd" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14.5">reducir fricción en tareas de síntesis.</text>
     <text x="22" y="152" fill="#8da399" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5">Prompts · Python</text>
@@ -73,7 +81,9 @@
       <path d="M7.4 14.2 L11.8 7.5 M20.6 14.2 L16.2 7.5 M7.8 16.2 L20.2 16.2" stroke="#8da399" stroke-width="1.2"/>
     </g>
     <text x="22" y="64" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="20.5" font-weight="700">RRHH</text>
-    <line x1="22" y1="78" x2="60" y2="78" stroke="#5cbf8f" stroke-width="2" stroke-linecap="round"/>
+    <line x1="22" y1="78" x2="60" y2="78" stroke="#5cbf8f" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="4.0s" begin="0s" repeatCount="indefinite"/>
+    </line>
     <text x="22" y="104" fill="#b4c6bd" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14.5">Transferencia de evidencia conductual al</text>
     <text x="22" y="124" fill="#b4c6bd" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14.5">desarrollo de talento y formación aplicada.</text>
     <text x="22" y="152" fill="#8da399" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5">People Analytics · L&amp;D</text>

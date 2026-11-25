@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="#enfoque-y-repositorios">Enfoque y repositorios</a> ·
-  <a href="#mapa-de-dominios-y-método">Mapa de dominios</a> ·
+  <a href="#mapa-de-dominios">Mapa de dominios</a> ·
   <a href="#contacto">Contacto</a> ·
   <a href="https://github.com/Vicentoex?tab=repositories">Todos los repositorios</a>
 </p>
@@ -26,30 +26,38 @@
 
 ### Enfoque y repositorios
 
-<table width="100%">
-  <tr>
-    <td width="52%" valign="top">
-      <h4>Enfoque de trabajo</h4>
-      <ul>
-        <li><strong>Aprendizaje activo sin fricción</strong> — Prompts y scripts para transformar apuntes y temarios en práctica de recuerdo espaciado.</li>
-        <li><strong>Criterio neuropsicológico antes del código</strong> — Atención, memoria y carga cognitiva como filtro antes de automatizar un proceso.</li>
-        <li><strong>Transparencia en el alcance</strong> — Lo publicado aquí son utilidades ligeras y exploraciones verificables; lo experimental permanece fuera hasta estar documentado.</li>
-      </ul>
-    </td>
-    <td width="48%" valign="top">
-      <h4>Repositorios públicos</h4>
-      <ul>
-        <li><a href="https://github.com/Vicentoex/Anki"><strong>Anki</strong></a> — <em>Anki Prompt</em> y <em>Anki Tarjet Script</em>: prompts y scripts para generar tarjetas de recuerdo activo. (Markdown · Python)</li>
-        <li><a href="https://github.com/Vicentoex/panel-hoy"><strong>panel-hoy</strong></a> — Panel web ligero para ordenar el foco diario sin dependencias pesadas. (HTML · CSS · JS)</li>
-        <li><a href="https://github.com/Vicentoex/Pensamiento"><strong>Pensamiento</strong></a> — Exploración conceptual en web para estructurar y revisar ideas por escrito. (HTML)</li>
-      </ul>
-      <p><sub>Espacio web en <a href="https://github.com/Vicentoex/Vicentoex.github.io">Vicentoex.github.io</a> (en construcción).</sub></p>
-      <p><strong>Stack habitual:</strong> Python · Markdown / Obsidian · Prompt Workflows · HTML / CSS / JS</p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/enfoque-anim-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/enfoque-anim-light.svg" />
+    <img
+      src="./assets/enfoque-anim-dark.svg"
+      width="100%"
+      alt="Arquitectura animada en tres capas: Psicología y Neuropsicología (atención, memoria y carga cognitiva) conectadas mediante flujos neuronales hacia Workflows legibles con IA (prompts, Python y Obsidian) y transferencia aplicada."
+    />
+  </picture>
+</p>
 
-### Mapa de dominios y método
+<p align="center">
+  <a href="https://github.com/Vicentoex/Anki">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/repo-anki-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/repo-anki-light.svg" />
+      <img
+        src="./assets/repo-anki-dark.svg"
+        width="100%"
+        alt="Tarjeta interactiva del repositorio público Vicentoex/Anki: Anki Prompt y Anki Tarjet Script con curva animada de retención por repetición espaciada (D1 a D21)."
+      />
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <sub><code>Anki</code> abre el escaparate público actual; otras herramientas y flujos internos permanecen en repositorios privados hasta quedar documentados.<br />
+  <strong>Stack habitual:</strong> Python · Markdown / Obsidian · Prompt Workflows</sub>
+</p>
+
+### Mapa de dominios
 
 <p align="center">
   <picture>
@@ -63,18 +71,6 @@
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/workflow-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/workflow-light.svg" />
-    <img
-      src="./assets/workflow-dark.svg"
-      width="100%"
-      alt="Flujo de trabajo: Base en Psicología y Neuropsicología, método mediante Workflows con IA y salida en herramientas ligeras para estudio activo, foco diario y formación."
-    />
-  </picture>
-</p>
-
 <br />
 
 <details>
@@ -82,13 +78,13 @@
 
 1. **Primero el mecanismo cognitivo, después la herramienta.** En estudio y trabajo del conocimiento, la IA aporta más cuando reduce fricción mecánica (formateo, síntesis inicial, generación de preguntas de práctica) sin sustituir la recuperación activa (*active recall*) ni el juicio crítico.
 2. **Prompts y scripts como artefactos mantenibles.** Prefiero flujos pequeños, explícitos y legibles (`Markdown`, `Python`, plantillas estructuradas) antes que automatizaciones opacas difíciles de revisar.
-3. **Alcance honesto de lo publicado.** Los repositorios públicos actuales reflejan utilidades ligeras y exploraciones abiertas; las piezas nuevas se irán publicando conforme queden documentadas y listas para uso independiente.
+3. **Alcance honesto de lo publicado.** `Anki` recoge la primera utilidad pública orientada a aprendizaje activo; las piezas nuevas se irán abriendo conforme queden listas para uso independiente.
 
 </details>
 
 ### Contacto
 
-Si trabajas en **educación basada en evidencia**, **workflows reproducibles con IA** o **desarrollo de talento y formación (RRHH)** y te interesa intercambiar ideas o revisar alguna herramienta publicada, puedes seguir la actividad y abrir conversación en [github.com/Vicentoex](https://github.com/Vicentoex).
+Si trabajas en **educación basada en evidencia**, **workflows estructurados con IA** o **desarrollo de talento y formación (RRHH)** y te interesa intercambiar ideas o revisar alguna herramienta publicada, puedes seguir la actividad y abrir conversación en [github.com/Vicentoex](https://github.com/Vicentoex).
 
 ---
 

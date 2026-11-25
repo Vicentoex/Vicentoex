@@ -1,48 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 896 116" width="896" height="116" role="img" aria-labelledby="wf-dark-title">
-  <title id="wf-dark-title">Flujo metodológico: Psicología y Neuropsicología hacia Workflows con IA y herramientas aplicadas</title>
-  <rect x="0.5" y="0.5" width="895" height="115" rx="12" fill="#0c1311" stroke="#26322e" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="800" height="220" role="img" aria-labelledby="wf-dark-title">
+  <title id="wf-dark-title">Flujo metodológico: Base en Psicología y Neuropsicología hacia Workflows con IA y herramientas ligeras</title>
+  <rect x="0.5" y="0.5" width="799" height="219" rx="16" fill="#0c1311" stroke="#26322e" stroke-width="1"/>
+
+  <!-- Header -->
+  <circle cx="28" cy="28" r="3.5" fill="#e3a24f"/>
+  <text x="41" y="32" fill="#a6b9b0" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="600" letter-spacing="0.6">FLUJO DE TRABAJO · DEL CRITERIO A LA HERRAMIENTA</text>
+  <line x1="22" y1="48" x2="778" y2="48" stroke="#222e2a" stroke-width="1"/>
 
   <!-- Step 1 -->
-  <g transform="translate(20, 20)">
-    <rect x="0.5" y="0.5" width="252" height="75" rx="8" fill="#121c19" stroke="#26322e" stroke-width="1"/>
-    <text x="16" y="25" fill="#7de0ae" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="600">ENTRADA · BASE CIENTÍFICA</text>
-    <text x="16" y="46" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Psicología y Neuropsicología</text>
-    <text x="16" y="63" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11.5">Cómo atendemos, retenemos y decidimos</text>
+  <g transform="translate(22, 66)">
+    <rect x="0.5" y="0.5" width="230" height="132" rx="12" fill="#121c19" stroke="#26322e" stroke-width="1"/>
+    <text x="22" y="29" fill="#7de0ae" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="600">BASE · PSICOLOGÍA</text>
+    <text x="22" y="57" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="18.5" font-weight="700">Psicología y</text>
+    <text x="22" y="79" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="18.5" font-weight="700">Neuropsicología</text>
+    <text x="22" y="106" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14">Atención, memoria y</text>
+    <text x="22" y="123" fill="#8da399" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14">criterio empírico</text>
   </g>
 
   <!-- Arrow 1 -> 2 -->
   <g>
-    <line x1="278" y1="58" x2="316" y2="58" stroke="#5cbf8f" stroke-width="1.5" stroke-dasharray="3 3"/>
-    <polygon points="315,54 323,58 315,62" fill="#7de0ae"/>
-    <circle cx="288" cy="58" r="2.5" fill="#7de0ae">
-      <animate attributeName="cx" values="280;312;280" dur="3.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite"/>
+    <line x1="254" y1="132" x2="278" y2="132" stroke="#5cbf8f" stroke-width="1.8" stroke-dasharray="3 3"/>
+    <polygon points="277,127 286,132 277,137" fill="#7de0ae"/>
+    <circle cx="260" cy="132" r="2.8" fill="#7de0ae">
+      <animate attributeName="cx" values="256;278;256" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.8s" repeatCount="indefinite"/>
     </circle>
   </g>
 
   <!-- Step 2 -->
-  <g transform="translate(326, 20)">
-    <rect x="0.5" y="0.5" width="244" height="75" rx="8" fill="#141e1b" stroke="#364a43" stroke-width="1"/>
-    <text x="16" y="25" fill="#e3a24f" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="600">SÍNTESIS · MÉTODO</text>
-    <text x="16" y="46" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Workflows con IA</text>
-    <text x="16" y="63" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11.5">Prompts, scripts y flujos reproducibles</text>
+  <g transform="translate(287, 66)">
+    <rect x="0.5" y="0.5" width="226" height="132" rx="12" fill="#141e1b" stroke="#364a43" stroke-width="1"/>
+    <text x="22" y="29" fill="#e3a24f" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="600">MÉTODO · IA</text>
+    <text x="22" y="57" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="18.5" font-weight="700">Workflows</text>
+    <text x="22" y="79" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="18.5" font-weight="700">con IA</text>
+    <text x="22" y="106" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14">Prompts explícitos y</text>
+    <text x="22" y="123" fill="#8da399" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14">scripts mantenibles</text>
   </g>
 
   <!-- Arrow 2 -> 3 -->
   <g>
-    <line x1="576" y1="58" x2="614" y2="58" stroke="#e3a24f" stroke-width="1.5" stroke-dasharray="3 3"/>
-    <polygon points="613,54 621,58 613,62" fill="#e3a24f"/>
-    <circle cx="588" cy="58" r="2.5" fill="#e3a24f">
-      <animate attributeName="cx" values="578;610;578" dur="3.2s" begin="0.8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" begin="0.8s" repeatCount="indefinite"/>
+    <line x1="515" y1="132" x2="539" y2="132" stroke="#e3a24f" stroke-width="1.8" stroke-dasharray="3 3"/>
+    <polygon points="538,127 547,132 538,137" fill="#e3a24f"/>
+    <circle cx="521" cy="132" r="2.8" fill="#e3a24f">
+      <animate attributeName="cx" values="517;539;517" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
     </circle>
   </g>
 
   <!-- Step 3 -->
-  <g transform="translate(624, 20)">
-    <rect x="0.5" y="0.5" width="252" height="75" rx="8" fill="#121c19" stroke="#26322e" stroke-width="1"/>
-    <text x="16" y="25" fill="#7de0ae" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="600">SALIDA · UTILIDAD REAL</text>
-    <text x="16" y="46" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Herramientas aplicadas</text>
-    <text x="16" y="63" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11.5">Estudio, claridad diaria y talento (RRHH)</text>
+  <g transform="translate(548, 66)">
+    <rect x="0.5" y="0.5" width="230" height="132" rx="12" fill="#121c19" stroke="#26322e" stroke-width="1"/>
+    <text x="22" y="29" fill="#7de0ae" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="600">SALIDA · APLICACIÓN</text>
+    <text x="22" y="57" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="18.5" font-weight="700">Herramientas</text>
+    <text x="22" y="79" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="18.5" font-weight="700">ligeras</text>
+    <text x="22" y="106" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14">Estudio activo, foco</text>
+    <text x="22" y="123" fill="#8da399" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14">diario y formación</text>
   </g>
 </svg>

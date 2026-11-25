@@ -1,53 +1,55 @@
 <p align="center">
-  <img
-    src="./assets/hero-brain.gif"
-    width="100%"
-    alt="Banner animado de Vicente Torregrosa (@Vicentoex): cerebro translúcido con actividad sináptica bioluminiscente esmeralda y ámbar sobre fondo obsidiana. Áreas: Educación y Aprendizaje, Neuropsicología, IA y RRHH."
-  />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-brain-dark.gif" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-brain-light.gif" />
+    <img
+      src="./assets/hero-brain-dark.gif"
+      width="100%"
+      alt="Banner animado de Vicente Torregrosa (@Vicentoex): cerebro translúcido con pulsos neuronales bioluminiscentes esmeralda y ámbar sobre fondo obsidiana. Psicología, aprendizaje y automatización legible."
+    />
+  </picture>
 </p>
 
 <p align="center">
-  <strong>Estudiante de Psicología que diseña workflows con IA para aprender, pensar y trabajar con menos fricción.</strong><br />
-  <sub>Intersección entre psicología aplicada, neuropsicología, automatización reproducible y desarrollo de personas.</sub>
+  <strong>Estudiante de Psicología · Workflows con IA aplicados al aprendizaje, la cognición y el desarrollo de personas.</strong><br />
+  <sub>Construyo prompts estructurados y herramientas web ligeras para convertir teoría psicológica en práctica diaria verificable.</sub>
 </p>
 
 <p align="center">
-  <a href="#lineas-de-trabajo">Líneas de trabajo</a> ·
-  <a href="#repositorios-publicos">Repositorios públicos</a> ·
-  <a href="#mapa-de-dominios">Mapa de dominios</a> ·
+  <a href="#enfoque-y-repositorios">Enfoque y repositorios</a> ·
+  <a href="#mapa-de-dominios-y-método">Mapa de dominios</a> ·
+  <a href="#contacto">Contacto</a> ·
   <a href="https://github.com/Vicentoex?tab=repositories">Todos los repositorios</a>
 </p>
 
 ---
 
+### Enfoque y repositorios
+
 <table width="100%">
   <tr>
-    <td width="54%" valign="top">
-      <h3 id="lineas-de-trabajo">Cuatro líneas de intersección</h3>
-      <p>Trabajo en el cruce entre cómo procesamos información y cómo estructuramos herramientas digitales para sostener ese esfuerzo sin ruido innecesario:</p>
+    <td width="52%" valign="top">
+      <h4>Enfoque de trabajo</h4>
       <ul>
-        <li><strong>Educación y Aprendizaje</strong> — Diseño instruccional, aprendizaje activo y sistemas de repetición espaciada orientados a retener conceptos complejos a largo plazo.</li>
-        <li><strong>Neuropsicología</strong> — Atención, memoria, carga cognitiva y criterio empírico como base antes de diseñar cualquier flujo o interfaz.</li>
-        <li><strong>IA aplicada</strong> — Workflows reproducibles, diseño de prompts y pequeños scripts que convierten tareas repetitivas de estudio o documentación en procesos claros.</li>
-        <li><strong>RRHH</strong> — Aplicación de evidencia conductual y análisis de personas (<em>People Analytics</em>) a procesos de formación y desarrollo de talento.</li>
+        <li><strong>Aprendizaje activo sin fricción</strong> — Prompts y scripts para transformar apuntes y temarios en práctica de recuerdo espaciado.</li>
+        <li><strong>Criterio neuropsicológico antes del código</strong> — Atención, memoria y carga cognitiva como filtro antes de automatizar un proceso.</li>
+        <li><strong>Transparencia en el alcance</strong> — Lo publicado aquí son utilidades ligeras y exploraciones verificables; lo experimental permanece fuera hasta estar documentado.</li>
       </ul>
     </td>
-    <td width="46%" valign="top">
-      <h3 id="repositorios-publicos">Repositorios públicos</h3>
-      <p>Selección pública en evolución:</p>
+    <td width="48%" valign="top">
+      <h4>Repositorios públicos</h4>
       <ul>
-        <li><a href="https://github.com/Vicentoex/Anki"><strong><code>Anki</code></strong></a> — <em>Anki Prompt</em> y <em>Anki Tarjet Script</em>: estructura de prompts y automatización para generar tarjetas orientadas a recuerdo activo.</li>
-        <li><a href="https://github.com/Vicentoex/panel-hoy"><strong><code>panel-hoy</code></strong></a> — Panel web personal ligero (<code>HTML</code> · <code>CSS</code> · <code>JS</code>) pensado para ordenar el foco diario sin dependencias pesadas.</li>
-        <li><a href="https://github.com/Vicentoex/Pensamiento"><strong><code>Pensamiento</code></strong></a> — Exploración conceptual en web (<code>HTML</code>) para estructurar y revisar ideas por escrito.</li>
-        <li><a href="https://github.com/Vicentoex/Vicentoex.github.io"><strong><code>Vicentoex.github.io</code></strong></a> — Espacio base para futura publicación web en GitHub Pages (<em>en desarrollo</em>).</li>
+        <li><a href="https://github.com/Vicentoex/Anki"><strong>Anki</strong></a> — <em>Anki Prompt</em> y <em>Anki Tarjet Script</em>: prompts y scripts para generar tarjetas de recuerdo activo. (Markdown · Python)</li>
+        <li><a href="https://github.com/Vicentoex/panel-hoy"><strong>panel-hoy</strong></a> — Panel web ligero para ordenar el foco diario sin dependencias pesadas. (HTML · CSS · JS)</li>
+        <li><a href="https://github.com/Vicentoex/Pensamiento"><strong>Pensamiento</strong></a> — Exploración conceptual en web para estructurar y revisar ideas por escrito. (HTML)</li>
       </ul>
-      <p><strong>Herramientas habituales</strong><br />
-      <code>Python</code> · <code>Obsidian</code> · <code>Prompt Workflows</code> · <code>HTML / CSS / JS</code></p>
+      <p><sub>Espacio web en <a href="https://github.com/Vicentoex/Vicentoex.github.io">Vicentoex.github.io</a> (en construcción).</sub></p>
+      <p><strong>Stack habitual:</strong> Python · Markdown / Obsidian · Prompt Workflows · HTML / CSS / JS</p>
     </td>
   </tr>
 </table>
 
-<h3 id="mapa-de-dominios">Mapa de dominios y método</h3>
+### Mapa de dominios y método
 
 <p align="center">
   <picture>
@@ -56,7 +58,7 @@
     <img
       src="./assets/pillars-dark.svg"
       width="100%"
-      alt="Cuatro pilares de trabajo: 01 Educación y Aprendizaje (Anki y retención), 02 Neuropsicología (atención, memoria y criterio empírico), 03 IA Aplicada (workflows agénticos y prompts reproducibles) y 04 RRHH y Talento (People Analytics y formación basada en evidencia)."
+      alt="Cuatro líneas de intersección: 01 Educación y Aprendizaje (repetición espaciada y recuerdo activo), 02 Neuropsicología (atención, memoria y carga cognitiva), 03 IA aplicada (prompts estructurados y scripts legibles) y 04 RRHH (People Analytics y formación aplicada)."
     />
   </picture>
 </p>
@@ -68,10 +70,12 @@
     <img
       src="./assets/workflow-dark.svg"
       width="100%"
-      alt="Flujo de trabajo: Entrada desde Psicología y Neuropsicología, síntesis mediante Workflows con IA y salida en herramientas aplicadas para estudio, claridad diaria y RRHH."
+      alt="Flujo de trabajo: Base en Psicología y Neuropsicología, método mediante Workflows con IA y salida en herramientas ligeras para estudio activo, foco diario y formación."
     />
   </picture>
 </p>
+
+<br />
 
 <details>
 <summary><strong>Notas de método: cómo conecto psicología y workflows con IA</strong></summary>
@@ -81,6 +85,10 @@
 3. **Alcance honesto de lo publicado.** Los repositorios públicos actuales reflejan utilidades ligeras y exploraciones abiertas; las piezas nuevas se irán publicando conforme queden documentadas y listas para uso independiente.
 
 </details>
+
+### Contacto
+
+Si trabajas en **educación basada en evidencia**, **workflows reproducibles con IA** o **desarrollo de talento y formación (RRHH)** y te interesa intercambiar ideas o revisar alguna herramienta publicada, puedes seguir la actividad y abrir conversación en [github.com/Vicentoex](https://github.com/Vicentoex).
 
 ---
 

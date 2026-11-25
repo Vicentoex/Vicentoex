@@ -12,14 +12,14 @@
 
 <p align="center">
   <strong>Estudiante de Psicología · Workflows con IA aplicados al aprendizaje, la cognición y el desarrollo de personas.</strong><br />
-  <sub>Construyo prompts estructurados y herramientas web ligeras para convertir teoría psicológica en práctica diaria verificable.</sub>
+  <sub>Diseño prompts estructurados y utilidades ligeras en Python para convertir teoría psicológica en práctica de estudio verificable.</sub>
 </p>
 
 <p align="center">
   <a href="#enfoque-y-repositorios">Enfoque y repositorios</a> ·
   <a href="#mapa-de-dominios">Mapa de dominios</a> ·
   <a href="#contacto">Contacto</a> ·
-  <a href="https://github.com/Vicentoex?tab=repositories">Todos los repositorios</a>
+  <a href="https://github.com/Vicentoex/Anki">Repositorio Anki</a>
 </p>
 
 ---
@@ -53,7 +53,7 @@
 </p>
 
 <p align="center">
-  <sub><code>Anki</code> abre el escaparate público actual; otras herramientas y flujos internos permanecen en repositorios privados hasta quedar documentados.<br />
+  <sub><strong><code>Anki</code></strong> es la primera utilidad pública abierta: diseño instruccional y automatización ligera orientada a recuerdo activo.<br />
   <strong>Stack habitual:</strong> Python · Markdown / Obsidian · Prompt Workflows</sub>
 </p>
 

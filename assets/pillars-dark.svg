@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 896 268" width="896" height="268" role="img" aria-labelledby="pillars-dark-title">
+  <title id="pillars-dark-title">Cuatro líneas de intersección: Educación y Aprendizaje, Neuropsicología, IA Aplicada y RRHH</title>
+  <defs>
+    <linearGradient id="bg-grad-d" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a100e"/>
+      <stop offset="100%" stop-color="#0f1714"/>
+    </linearGradient>
+    <linearGradient id="bridge-d" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5cbf8f" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="#5cbf8f" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#e3a24f" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer container -->
+  <rect x="0.5" y="0.5" width="895" height="267" rx="14" fill="url(#bg-grad-d)" stroke="#26322e" stroke-width="1"/>
+
+  <!-- Section header bar -->
+  <circle cx="28" cy="28" r="3.5" fill="#5cbf8f"/>
+  <text x="40" y="32" fill="#a6b9b0" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="600" letter-spacing="0.6">MAPA DE DOMINIOS · INTERSECCIÓN APLICADA</text>
+  <text x="872" y="32" text-anchor="end" fill="#7f948a" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">01 — 04</text>
+  <line x1="20" y1="48" x2="876" y2="48" stroke="#222e2a" stroke-width="1"/>
+
+  <!-- Subtle horizontal connecting filament behind cards -->
+  <line x1="115" y1="156" x2="781" y2="156" stroke="#26322e" stroke-width="1.2" stroke-dasharray="3 4"/>
+
+  <!-- Card 1: Educación y Aprendizaje -->
+  <g transform="translate(20, 64)">
+    <rect x="0.5" y="0.5" width="202" height="184" rx="10" fill="#121c19" stroke="#26322e" stroke-width="1"/>
+    <text x="16" y="26" fill="#7de0ae" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="600">01 · APRENDIZAJE</text>
+    <!-- Minimalist spaced-curve icon -->
+    <g transform="translate(158, 14)" fill="none" stroke="#5cbf8f" stroke-width="1.5" stroke-linecap="round">
+      <path d="M2 14 C6 4, 14 4, 18 14"/>
+      <path d="M10 14 C14 7, 20 7, 24 14" stroke="#7de0ae" opacity="0.85"/>
+      <circle cx="2" cy="14" r="1.6" fill="#7de0ae" stroke="none"/>
+      <circle cx="18" cy="14" r="1.6" fill="#5cbf8f" stroke="none"/>
+    </g>
+    <text x="16" y="58" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="15" font-weight="700">Educación y</text>
+    <text x="16" y="77" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="15" font-weight="700">Aprendizaje</text>
+    <line x1="16" y1="92" x2="48" y2="92" stroke="#5cbf8f" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="16" y="114" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">Aprendizaje activo,</text>
+    <text x="16" y="131" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">repetición espaciada y</text>
+    <text x="16" y="148" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">diseño instruccional.</text>
+    <text x="16" y="170" fill="#7f948a" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">Anki · Retención</text>
+  </g>
+
+  <!-- Card 2: Neuropsicología -->
+  <g transform="translate(238, 64)">
+    <rect x="0.5" y="0.5" width="202" height="184" rx="10" fill="#121c19" stroke="#26322e" stroke-width="1"/>
+    <text x="16" y="26" fill="#7de0ae" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="600">02 · COGNICIÓN</text>
+    <!-- Minimalist neural network icon -->
+    <g transform="translate(158, 14)" fill="none" stroke="#5cbf8f" stroke-width="1.4">
+      <line x1="4" y1="12" x2="13" y2="5"/>
+      <line x1="4" y1="12" x2="15" y2="16"/>
+      <line x1="13" y1="5" x2="23" y2="10"/>
+      <line x1="15" y1="16" x2="23" y2="10"/>
+      <circle cx="4" cy="12" r="2.2" fill="#7de0ae" stroke="none"/>
+      <circle cx="13" cy="5" r="2" fill="#e3a24f" stroke="none"/>
+      <circle cx="15" cy="16" r="2" fill="#5cbf8f" stroke="none"/>
+      <circle cx="23" cy="10" r="2.2" fill="#7de0ae" stroke="none"/>
+    </g>
+    <text x="16" y="58" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="15" font-weight="700">Neuropsicología</text>
+    <line x1="16" y1="92" x2="48" y2="92" stroke="#5cbf8f" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="16" y="114" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">Atención, memoria,</text>
+    <text x="16" y="131" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">evaluación cognitiva</text>
+    <text x="16" y="148" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">y criterio empírico.</text>
+    <text x="16" y="170" fill="#7f948a" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">Rigor · Procesos</text>
+  </g>
+
+  <!-- Card 3: IA Aplicada -->
+  <g transform="translate(456, 64)">
+    <rect x="0.5" y="0.5" width="202" height="184" rx="10" fill="#121c19" stroke="#26322e" stroke-width="1"/>
+    <text x="16" y="26" fill="#e3a24f" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="600">03 · WORKFLOWS</text>
+    <!-- Minimalist flow-bridge icon -->
+    <g transform="translate(158, 14)" fill="none" stroke="#e3a24f" stroke-width="1.5" stroke-linecap="round">
+      <rect x="2" y="4" width="7" height="7" rx="2"/>
+      <rect x="17" y="11" width="7" height="7" rx="2" stroke="#5cbf8f"/>
+      <path d="M9 7.5 C14 7.5, 12 14.5, 17 14.5" stroke="#a6b9b0"/>
+    </g>
+    <text x="16" y="58" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="15" font-weight="700">IA Aplicada</text>
+    <line x1="16" y1="92" x2="48" y2="92" stroke="#e3a24f" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="16" y="114" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">Workflows agénticos,</text>
+    <text x="16" y="131" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">prompts reproducibles y</text>
+    <text x="16" y="148" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">automatización útil.</text>
+    <text x="16" y="170" fill="#7f948a" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">Prompts · Sistemas</text>
+  </g>
+
+  <!-- Card 4: RRHH & Talento -->
+  <g transform="translate(674, 64)">
+    <rect x="0.5" y="0.5" width="202" height="184" rx="10" fill="#121c19" stroke="#26322e" stroke-width="1"/>
+    <text x="16" y="26" fill="#7de0ae" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="600">04 · ORGANIZACIÓN</text>
+    <!-- Minimalist people/alignment triad icon -->
+    <g transform="translate(158, 14)" fill="none" stroke="#5cbf8f" stroke-width="1.4">
+      <circle cx="13" cy="5" r="2.6"/>
+      <circle cx="5" cy="15" r="2.2" stroke="#a6b9b0"/>
+      <circle cx="21" cy="15" r="2.2" stroke="#a6b9b0"/>
+      <path d="M7.2 13.4 L11 7.2 M18.8 13.4 L15 7.2 M7.6 15.2 L18.4 15.2" stroke="#7f948a" stroke-width="1.1"/>
+    </g>
+    <text x="16" y="58" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="15" font-weight="700">RRHH y Talento</text>
+    <line x1="16" y1="92" x2="48" y2="92" stroke="#5cbf8f" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="16" y="114" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">People Analytics,</text>
+    <text x="16" y="131" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">desarrollo de talento</text>
+    <text x="16" y="148" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">y formación con base.</text>
+    <text x="16" y="170" fill="#7f948a" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">Personas · Evidencia</text>
+  </g>
+</svg>

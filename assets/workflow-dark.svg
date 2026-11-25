@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 896 116" width="896" height="116" role="img" aria-labelledby="wf-dark-title">
+  <title id="wf-dark-title">Flujo metodológico: Psicología y Neuropsicología hacia Workflows con IA y herramientas aplicadas</title>
+  <rect x="0.5" y="0.5" width="895" height="115" rx="12" fill="#0c1311" stroke="#26322e" stroke-width="1"/>
+
+  <!-- Step 1 -->
+  <g transform="translate(20, 20)">
+    <rect x="0.5" y="0.5" width="252" height="75" rx="8" fill="#121c19" stroke="#26322e" stroke-width="1"/>
+    <text x="16" y="25" fill="#7de0ae" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="600">ENTRADA · BASE CIENTÍFICA</text>
+    <text x="16" y="46" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Psicología y Neuropsicología</text>
+    <text x="16" y="63" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11.5">Cómo atendemos, retenemos y decidimos</text>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <g>
+    <line x1="278" y1="58" x2="316" y2="58" stroke="#5cbf8f" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <polygon points="315,54 323,58 315,62" fill="#7de0ae"/>
+    <circle cx="288" cy="58" r="2.5" fill="#7de0ae">
+      <animate attributeName="cx" values="280;312;280" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Step 2 -->
+  <g transform="translate(326, 20)">
+    <rect x="0.5" y="0.5" width="244" height="75" rx="8" fill="#141e1b" stroke="#364a43" stroke-width="1"/>
+    <text x="16" y="25" fill="#e3a24f" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="600">SÍNTESIS · MÉTODO</text>
+    <text x="16" y="46" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Workflows con IA</text>
+    <text x="16" y="63" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11.5">Prompts, scripts y flujos reproducibles</text>
+  </g>
+
+  <!-- Arrow 2 -> 3 -->
+  <g>
+    <line x1="576" y1="58" x2="614" y2="58" stroke="#e3a24f" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <polygon points="613,54 621,58 613,62" fill="#e3a24f"/>
+    <circle cx="588" cy="58" r="2.5" fill="#e3a24f">
+      <animate attributeName="cx" values="578;610;578" dur="3.2s" begin="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Step 3 -->
+  <g transform="translate(624, 20)">
+    <rect x="0.5" y="0.5" width="252" height="75" rx="8" fill="#121c19" stroke="#26322e" stroke-width="1"/>
+    <text x="16" y="25" fill="#7de0ae" font-family="'Fira Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="600">SALIDA · UTILIDAD REAL</text>
+    <text x="16" y="46" fill="#ebf2ee" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Herramientas aplicadas</text>
+    <text x="16" y="63" fill="#a6b9b0" font-family="'Fira Sans', system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11.5">Estudio, claridad diaria y talento (RRHH)</text>
+  </g>
+</svg>
